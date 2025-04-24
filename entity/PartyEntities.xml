@@ -1,0 +1,12 @@
+<entities>
+    <entity entity-name="Party" package-name="relationshipmgr">
+        <field name="partyId" type="id" is-pk="true"/>
+        <field name="partyTypeId" type="text-medium"/>
+    </entity>
+    <master>
+        <detail relationship="Person"/>
+        <detail relationship="PartyRole"/>
+        <detail relationship="Organization"/>
+    </master>
+</entities>
+

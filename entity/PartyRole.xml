@@ -1,0 +1,9 @@
+<entities>
+    <entity entity-name="PartyRole" package-name="relationshipmgr">
+        <field name="partyId" type="id" is-pk="true"/>
+        <field name="roleTypeId" type="id" is-pk="true"/>
+        <relationship type="one" related="relationshipmgr.Party">
+            <key-map field-name="partyId"/>
+        </relationship>
+    </entity>
+</entities>

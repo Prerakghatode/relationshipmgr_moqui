@@ -1,0 +1,4 @@
+<entity-facade-xml type="seed">
+    <relationshipmgr.Party partyId="PER123" partyTypeId="PERSON"/>
+    <relationshipmgr.Party partyId="ORG456" partyTypeId="ORGANIZATION"/>
+</entity-facade-xml>

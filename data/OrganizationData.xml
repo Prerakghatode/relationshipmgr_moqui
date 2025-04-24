@@ -1,0 +1,3 @@
+<entity-facade-xml type="demo">
+    <relationshipmgr.Organization partyId="ORG456" organizationName="ABC"/>
+</entity-facade-xml>

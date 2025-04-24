@@ -1,0 +1,35 @@
+[
+  {
+    "_dataType": "demo"
+  },
+  {
+    "_entity": "Party",
+    "partyId": "PER124",
+    "partyTypeId": "PERSON",
+    "Person": {
+      "firstName": "Ram",
+      "lastName": "Doe",
+      "birthDate": "1988-01-07"
+    },
+    "PartyRole": [
+      {
+        "roleTypeId": "CUSTOMER"
+      },
+      {
+        "roleTypeId": "EMPLOYEE"
+      }
+    ]
+  },
+
+  {
+    "_entity": "Party",
+    "partyId": "ORG457",
+    "partyTypeId": "ORGANIZATION",
+    "Organization":{
+      "organizationName": "PQR"
+    },
+    "PartyRole":{
+      "roleTypeId": "EMPLOYER"
+    }
+  }
+]

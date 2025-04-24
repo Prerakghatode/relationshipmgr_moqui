@@ -1,0 +1,5 @@
+<entity-facade-xml type="seed">
+    <relationshipmgr.PartyRole partyId="PER123" roleTypeId="CUSTOMER"/>
+    <relationshipmgr.PartyRole partyId="PER123" roleTypeId="EMPLOYEE"/>
+    <relationshipmgr.PartyRole partyId="ORG456" roleTypeId="EMPLOYER"/>
+</entity-facade-xml>

@@ -1,0 +1,11 @@
+<entities>
+    <entity entity-name="Person" package-name="relationshipmgr">
+        <field name="partyId" type="id" is-pk="true"/>
+        <field name="firstName" type="text-medium"/>
+        <field name="lastName" type="text-medium"/>
+        <field name="birthDate" type="date"/>
+        <relationship type="one" related="relationshipmgr.Party">
+            <key-map field-name="partyId"/>
+        </relationship>
+    </entity>
+</entities>
