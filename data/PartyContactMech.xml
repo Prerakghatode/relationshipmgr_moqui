@@ -1,0 +1,8 @@
+<entity-facade-xml type="seed">
+<relationshipmgr.PartyContactMech partyId="PER123" contactMechId="10000" contactMechPurposeId="WORK" fromDate="2010-01-01"/>
+<relationshipmgr.PartyContactMech partyId="PER123" contactMechId="10001" contactMechPurposeId="WORK" fromDate="2010-01-01"/>
+<relationshipmgr.PartyContactMech partyId="PER123" contactMechId="10002" contactMechPurposeId="WORK" fromDate="2010-01-01"/>
+<relationshipmgr.PartyContactMech partyId="PER123" contactMechId="10003" contactMechPurposeId="HOME" fromDate="2005-01-01"/>
+<relationshipmgr.PartyContactMech partyId="ORG456" contactMechId="10000" contactMechPurposeId="OFFICE" fromDate="2010-01-01"/>
+<relationshipmgr.PartyContactMech partyId="ORG456" contactMechId="10002" contactMechPurposeId="OFFICE" fromDate="2000-01-01"/>
+</entity-facade-xml>

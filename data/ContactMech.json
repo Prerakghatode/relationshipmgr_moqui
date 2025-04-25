@@ -1,0 +1,58 @@
+[
+  {
+    "_dataType": "demo"
+  },
+  {
+    "_entity": "ContactMech",
+    "ContactMech": [
+      {
+        "contactMechId": "10000",
+        "contactMechTypeEnumId": "TELECOM_NUMBER",
+        "TELECOM_NUMBER": {
+          "countryCode": "1",
+          "areaCode": "123",
+          "contactNumber": "4567890"
+        }
+      },
+      {
+        "contactMechId": "10001",
+        "contactMechTypeEnumId": "EMAIL_ADDRESS",
+        "infoString": "example@email.com"
+      },
+      {
+        "contactMechId": "10002",
+        "contactMechTypeEnumId": "POSTAL_ADDRESS",
+        "PostalAddress": {
+          "toName": "John Doe",
+          "attnName": "Office",
+          "address1": "123 Main St",
+          "address2": "Suite 100",
+          "city": "Metropolis",
+          "postalCode": "12345"
+        }
+      },
+      {
+        "contactMechId": "10003",
+        "contactMechTypeEnumId": "POSTAL_ADDRESS",
+        "PostalAddress": {
+          "toName": "John Doe",
+          "attnName": "Home",
+          "address1": "123 Local St",
+          "city": "Metropolis",
+          "postalCode": "12345"
+        }
+      },
+      {
+        "contactMechId": "10004",
+        "contactMechTypeEnumId": "POSTAL_ADDRESS",
+        "PostalAddress": {
+          "toName": "SoHo Store",
+          "attnName": "Home",
+          "address1": "123 Broome St",
+          "city": "New York",
+          "postalCode": "10012"
+        }
+      }
+    ]
+  }
+]

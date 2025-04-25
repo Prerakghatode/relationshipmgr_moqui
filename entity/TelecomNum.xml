@@ -1,0 +1,11 @@
+<entities>
+    <entity entity-name="TELECOM_NUMBER" package="relationshipmgr">
+        <field name="contactMechId" type="id" is-pk="true"/>
+        <field name="countryCode" type="id"/>
+        <field name="areaCode" type="id"/>
+        <field name="contactNumber" type="text-medium"/>
+        <relationship type="one" related="relationshipmgr.ContactMech">
+            <key-map field-name="contactMechId"/>
+        </relationship>
+    </entity>
+</entities>

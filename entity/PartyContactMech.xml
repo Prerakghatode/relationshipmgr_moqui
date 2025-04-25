@@ -1,0 +1,17 @@
+<entities>
+    <entity entity-name="PartyContactMech" package-name="relationshipmgr">
+        <field name="partyId" type="id" is-pk="true"/>
+        <field name="contactMechId" type="id" is-pk="true"/>
+        <field name="contactMechPurposeId" type="id"/>
+        <field name="fromDate" type="date"/>
+        <relationship type="one" related="relationshipmgr.ContactMech">
+            <key-map field-name="contactMechId"/>
+        </relationship>
+        <relationship type="one" related="relationshipmgr.Party">
+            <key-map field-name="partyId"/>
+        </relationship>
+        <relationship type="one" related="relationshipmgr.ContactMechPurpose">
+            <key-map field-name="contactMechPurposeId"/>
+        </relationship>
+    </entity>
+</entities>

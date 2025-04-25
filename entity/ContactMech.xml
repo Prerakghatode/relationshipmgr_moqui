@@ -1,0 +1,7 @@
+<entities>
+    <entity entity-name="ContactMech" package-name="relationshipmgr">
+        <field name="contactMechId" type="id" is-pk="true"/>
+        <field name="contactMechTypeEnumId" type="id" required="false"/>
+        <field name="infoString" type="text-medium" required="false"/>
+    </entity>
+</entities>

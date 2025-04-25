@@ -1,0 +1,5 @@
+<entity-facade-xml type="seed">
+    <relationshipmgr.ContactMechPurpose contactMechPurposeId="WORK"/>
+    <relationshipmgr.ContactMechPurpose contactMechPurposeId="HOME"/>
+    <relationshipmgr.ContactMechPurpose contactMechPurposeId="OFFICE"/>
+</entity-facade-xml>

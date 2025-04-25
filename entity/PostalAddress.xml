@@ -1,0 +1,14 @@
+<entities>
+    <entity entity-name="PostalAddress" package="relationshipmgr">
+        <field name="contactMechId" type="id" is-pk="true"/>
+        <field name="toName" type="text-medium"/>
+        <field name="attnName" type="text-medium"/>
+        <field name="address1" type="text-long"/>
+        <field name="address2" type="text-long"/>
+        <field name="city" type="text-medium"/>
+        <field name="postalCode" type="id-long"/>
+        <relationship type="one" related="relationshipmgr.ContactMech">
+            <key-map field-name="contactMechId"/>
+        </relationship>
+    </entity>
+</entities>
